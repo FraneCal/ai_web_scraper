@@ -7,8 +7,6 @@ from selenium import webdriver
 from fake_useragent import UserAgent
 import time
 
-SBR_WEBDRIVER = 'https://brd-customer-hl_b8ba7595-zone-ai_scraper:mrgwpkds5qwc@brd.superproxy.io:9515'
-
 def scrape_website(website):
     print("Launching chrome browser...")
     
